@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cherry: #702D3D;
+  --color-cherry-hover: #5B2431;
+  --color-blush: #E8C7CC;
+  --color-cream: #FFF8F2;
+  --color-rose: #B77A85;
+  --color-white: #FFFFFF;
+  --color-dark-text: #38252B;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-dark-text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom Boutique Scrollbar in Rose & Cherry */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #DCB5BB;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #702D3D;
+}
+
+/* Boutique Shimmer Text */
+.cherry-gradient-text {
+  background: linear-gradient(135deg, #702D3D 0%, #8B384B 50%, #B77A85 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Boutique Soft Card Glow */
+.boutique-card {
+  background-color: #FFFFFF;
+  border: 1px solid #EEDFD5;
+  box-shadow: 0 4px 20px -2px rgba(112, 45, 61, 0.06);
+  transition: all 0.2s ease-in-out;
+}
+.boutique-card:hover {
+  border-color: #E8C7CC;
+  box-shadow: 0 8px 25px -4px rgba(112, 45, 61, 0.12);
+}
+
+/* Soft Pink Highlight Card */
+.blush-card {
+  background-color: #FAF1F3;
+  border: 1px solid #E8C7CC;
+}
