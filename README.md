@@ -1,6 +1,6 @@
 # Trim & Tone Salon Queue Management System (ટ્રિમ અને ટોન સલૂન કતાર વ્યવસ્થાપન)
 
-> **Live Production Demo:** [https://your-salon-queue.vercel.app](https://your-salon-queue.vercel.app) *(Deploy URL placeholder — replace upon Vercel import)*  
+> **Live Production Demo:** https://salon-queue-management-system-9s72wa9q0.vercel.app/  
 > **Academic Project:** MSc IT — Vibe Coding Lab Project  
 > **Developer:** Neha Tadvi (Student ID: 202612123)  
 > **Institute:** DAU (DAIICT) — Dhirubhai Ambani University  
